@@ -160,15 +160,15 @@
 }
 
 /* Edit Task */
-.list .list-item input[type=text] {
+.item-text {
     display:none
 }
 
-.list .list-item.edit-mode input[type=text] {
+.list-item.edit-mode .item-text{
     display:inline-block;
     width:224px
 }
 
-.list .list-item.edit-mode label {
+.list-item.edit-mode .label {
     display:none;
 }
